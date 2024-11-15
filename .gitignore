@@ -1,0 +1,68 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Enviroment variables
+.env
+
+# Virtual environment
+newenv/
+myenv/
+
+ENV/
+.venv/
+
+# PyCharm IDE
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and local environment files
+*.log
+*.sqlite3
+*.db
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# macOS files
+.DS_Store
+
+# Streamlit specific files
+.streamlit/
+
+# Ignore any API keys or secret keys stored in the following:
+*.env
+*.key
+
+# Ignore data files
+*.csv
+*.json
+*.xml
+
+# Ignore notebooks if necessary
+*.ipynb
+
+# Ignore language server config (if applicable)
+.mypy_cache/
