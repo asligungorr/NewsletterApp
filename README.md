@@ -33,6 +33,18 @@ The tool is ideal for generating weekly bulletins, multilingual content, and sum
 - **Supported Languages**: English, Spanish, French, German, Turkish, Azerbaijani, Arabic, Russian, Portuguese.
 
 ---
+## Project Structure
+
+```plaintext
+BeamSec-AI-Tool/
+├── app.py                    # Main Streamlit application
+├── copy_clipboard.py         # Script for "Copy to Clipboard" functionality
+├── openai_api.py             # Helper functions for summarization, translation, and title generation
+├── requirements.txt          # Python dependencies
+├── Dockerfile                # Docker configuration
+├── README.md                 # Project documentation
+├── .env                      # Environment variables (API keys)
+└── src/                      # Additional source modules for organizing code
 
 ## Installation
 
