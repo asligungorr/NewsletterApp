@@ -15,33 +15,35 @@ The tool is ideal for generating weekly bulletins, multilingual content, and sum
 
 ## Features
 
-### Input Options:
-- Paste text directly.
-- Upload files in PDF, DOCX, or TXT format.
+### Input Options
+- **Text Input**: Paste text directly into the application.
+- **File Upload**: Upload files in PDF, DOCX, or TXT format to extract and process content.
 
-### Summary Generation:
-- Configure summary length and title length.
-- Generate summaries for different emotions: Excitement, Interesting, and Confusion.
+### Summary Generation
+- **Emotion-Driven Summaries**: Generate summaries based on specific emotions like Excitement 😊, Interesting 🤔, and Confusion 😕.
+- **Configurable Summary Length**: Choose from summary lengths of 30, 50, or 100 words.
+- **Customizable Title Length**: Specify the number of words in the generated title (from 1 to 10).
 
-### Customization:
-- Edit summaries and titles directly in the app.
-- Copy summaries to the clipboard for easy sharing.
+### Customization
+- **Edit Summaries**: Edit generated summaries and titles directly in the app.
+- **Copy to Clipboard**: Easily copy summaries and translations to the clipboard for external use.
 
-### Multilingual Support:
-- Translate summaries into different languages with markdown and URL preservation.
+### Multilingual Support
+- **Translation Options**: Translate summaries into multiple languages while preserving markdown and URL formatting.
+- **Supported Languages**: English, Spanish, French, German, Turkish, Azerbaijani, Arabic, Russian, Portuguese.
 
 ---
 
 ## Installation
 
 ### Prerequisites
-- Python 3.8 or higher
-- [Streamlit](https://streamlit.io/)
-- OpenAI API Key (for GPT-4 Turbo)
+- **Python 3.8 or higher**
+- **[Streamlit](https://streamlit.io/)** - for running the web application
+- **OpenAI API Key** - required for generating summaries and translations (GPT-4 Turbo)
 
 ### Setup Instructions
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-repo/beamsec-ai-tool.git
    cd beamsec-ai-tool
