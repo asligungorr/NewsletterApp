@@ -45,8 +45,9 @@ BeamSec-AI-Tool/
 ├── README.md                 # Project documentation
 ├── .env                      # Environment variables (API keys)
 └── src/                      # Additional source modules for organizing code
+```
 
-## Installation
+### Installation
 
 ### Prerequisites
 - **Python 3.8 or higher**
