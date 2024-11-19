@@ -9,7 +9,7 @@ from copy_clipboard import add_copy_to_clipboard_button
 
 # Load environment variables
 load_dotenv()
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 @dataclass
 class Summary:
