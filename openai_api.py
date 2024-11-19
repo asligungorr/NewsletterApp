@@ -9,7 +9,13 @@ from copy_clipboard import add_copy_to_clipboard_button
 
 # Load environment variables
 load_dotenv()
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+# OpenAI API Key'i yükle
+api_key = os.getenv("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY")
+
+if not api_key:
+    raise ValueError("OpenAI API key bulunamadı! Lütfen .env dosyasını veya Streamlit Secrets kısmını kontrol edin.")
+
+openai.api_key = api_key
 
 @dataclass
 class Summary:
