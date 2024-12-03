@@ -45,7 +45,8 @@ def get_read_more_translation(language: str) -> str:
         "Azerbaijani": "Daha Ətraflı",
         "Arabic": "اقرأ المزيد",
         "Russian": "Читать Далее",
-        "Portuguese": "Ler Mais"
+        "Portuguese": "Ler Mais",
+        "Hungarian": "Tovább olvas"  # Added Hungarian translation
     }
     return translations.get(language, "Read More")
 
@@ -171,10 +172,11 @@ def main():
         )
 
     initial_language = st.radio(
-        "Select primary language:",
-        ["English", "Spanish", "French", "German", "Turkish", "Azerbaijani", "Arabic", "Russian", "Portuguese"],
-        horizontal=True
-    )
+    "Select primary language:",
+    ["English", "Spanish", "French", "German", "Turkish", "Azerbaijani", "Arabic", "Russian", "Portuguese", "Hungarian"],  # Added Hungarian
+    horizontal=True
+     )
+
 
     # Generate summaries
     if st.button("Generate Summaries", type="primary"):
@@ -221,8 +223,7 @@ def main():
 
     # Target languages selection
     st.write("Select target languages for translation:")
-    target_langs = ["English", "Spanish", "French", "German", "Turkish", "Azerbaijani", "Arabic", "Russian", "Portuguese"]
-    
+    target_langs = ["English", "Spanish", "French", "German", "Turkish", "Azerbaijani", "Arabic", "Russian", "Portuguese", "Hungarian"]    
     num_cols = 3
     rows = [target_langs[i:i + num_cols] for i in range(0, len(target_langs), num_cols)]
     selected_langs = []
