@@ -60,3 +60,9 @@ BeamSec-AI-Tool/
    ```bash
    git clone https://github.com/your-repo/beamsec-ai-tool.git
    cd beamsec-ai-tool
+   ```
+
+### Deployment
+
+- The app is deployed on Streamlit Cloud.  
+- Deployment link is available upon request.
